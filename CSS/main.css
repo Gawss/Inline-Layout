@@ -10,7 +10,7 @@
     height: 800px;
     margin: 0 auto;
 }
-header{
+.main__header{
     position: sticky;
     top:0;
     background: rgba(207, 108, 108, 0.7);
@@ -22,7 +22,7 @@ header{
     padding-top: 26.5px;
     padding-bottom: 26.5px;
 }
-.first__section{
+.main__firstSection{
     block-size: 300px;
     writing-mode: horizontal-tb;
     text-align: center;
@@ -30,20 +30,20 @@ header{
     margin-top: 20px;
 }
 
-.bigBox{
+.firstSection__bigBox{
     padding: 60px;
     block-size: 140px;
     background-color: aquamarine;
     margin-top: 20px;
 }
-.bigBox:first-child{
+.firstSection__bigBox:first-child{
     margin-top: 0%;
     margin-bottom: 0%;
 }
 .box__text{
     font-size: 20px;
 }
-.second__section{
+.main__secondSection{
     block-size: 400px;
     writing-mode: horizontal-tb;
     text-align: center;
@@ -51,23 +51,23 @@ header{
     margin-bottom: 20px;
     margin-top: 20px;
 }
-.smallBox{
+.secondSection__smallBox{
     padding: 50px;
     block-size: 120px;
     background-color: rgb(0, 162, 255);
     margin-top: 20px;
 }
-.smallBox:first-child{
+.secondSection__smallBox:first-child{
     margin-top: 0%;
     margin-bottom: 0%;
 }
-.footer{
+.main__footer{
     block-size: 200px;
     writing-mode: horizontal-tb;
     background-color: aqua;
     padding-top: 40px;  
 }
-.bottomBox{
+.footer__bottomBox{
     margin: 0 auto;
     block-size: 120px;
     inline-size: 120px;
@@ -77,22 +77,22 @@ header{
 
 
 @media(min-width: 600px){
-    .first__section{
+    .main__firstSection{
         display: inline-block;      
         width: 100%;
         height: 300px;
     }
-    .bigBox{
+    .firstSection__bigBox{
         max-width: 502px;
         width: 100%;
         height: 100%;
         margin-top: 0px;
         background-color: aquamarine;
     }
-    .bigBox:last-child{
+    .firstSection__bigBox:last-child{
         margin-left: 20px;
     }
-    .second__section{
+    .main__secondSection{
         display: inline-block;
         width: 100%;
         height: 400px;
